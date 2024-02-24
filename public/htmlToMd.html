@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown as Response</title>
+  </head>
+  <body>
+    <h4 style="color: #111111d2" class="title">Converted into Markdown</h4>
+    <div id="dataContainer"></div>
+    <script>
+      fetch("/api/mddata")
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data);
+          const container = document.getElementById("dataContainer");
+          container.innerHTML = data.globalMD;
+        })
+        .catch((error) => console.error("Error fetching data:", error));
+    </script>
+  </body>
+</html>
