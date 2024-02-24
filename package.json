@@ -1,7 +1,7 @@
 {
-  "name": "file-converter--resource-aggregator",
+  "name": "file-converter--md-html",
   "version": "1.0.0",
-  "description": "",
+  "description": "converts markdown to html and vice-versa, locally or remotely as well with the help of cloudflare tunnel (you can also use nagrok, or any other similar service you want).",
   "main": "index.js",
   "type": "module",
   "files": [
@@ -14,8 +14,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "markdown-to-html",
+    "html-to-markdown"
+  ],
+  "author": "Ayush Sharma",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.3.0",
@@ -23,5 +26,13 @@
     "jsdom": "^24.0.0",
     "ngrok": "^5.0.0-beta.2",
     "showdown": "^2.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meAyushSharma/file-converter--md-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meAyushSharma/file-converter--md-html/issues"
+  },
+  "homepage": "https://github.com/meAyushSharma/file-converter--md-html#readme"
 }
