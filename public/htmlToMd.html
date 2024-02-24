@@ -33,7 +33,7 @@
       fetch("/api/mddata")
         .then((response) => response.json())
         .then((data) => {
-          console.log(data);
+          console.log(data.globalMD);
           const container = document.getElementById("dataContainer");
           container.innerHTML = data.globalMD;
         })
