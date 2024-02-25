@@ -50,7 +50,7 @@ app.post("/submit-html", (req, res) => {
   console.log("Parsing HTML");
   const parsedHTML = dom.window.document;
   const markdown = convertor.makeMarkdown(userInput, parsedHTML);
-  console.log(chalk.bgBlackBright(markdown));
+  console.log(chalk.bgBlack(markdown));
   globalMD = markdown;
   res.sendFile(path.join(__dirname, "public", "htmlToMd.html"));
 });
