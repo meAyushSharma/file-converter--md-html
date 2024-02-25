@@ -1,6 +1,6 @@
 {
   "name": "file-converter--md-html",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "converts markdown to html and vice-versa, locally or remotely as well with the help of cloudflare tunnel (you can also use nagrok, or any other similar service you want).",
   "main": "index.js",
   "type": "module",
