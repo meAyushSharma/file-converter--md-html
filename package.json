@@ -1,5 +1,5 @@
 {
-  "name": "file-converter--md-html",
+  "name": "@meayush/file-converter--md-html",
   "version": "1.0.0",
   "description": "converts markdown to html and vice-versa, locally or remotely as well with the help of cloudflare tunnel (you can also use nagrok, or any other similar service you want).",
   "main": "index.js",
