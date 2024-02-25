@@ -12,9 +12,10 @@
     ".gitignore"
   ],
   "scripts": {
-    "postinstall": "chmod +x index.js",
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": "./index.js",
   "keywords": [
     "markdown-to-html",
     "html-to-markdown"
