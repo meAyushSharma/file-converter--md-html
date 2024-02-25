@@ -25,16 +25,16 @@ This project aims to provide easy conversion between html and markdown.
 Note: Ensure that you have installed `node` on your machine.  
  : If you encounter this :
 
-```
+
     (node:2806) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
     (Use `node --trace-deprecation ...` to show where the warning was created)
 
-```
 
-    This is due to issue in deprecated punycode module in `jsdom`.
-    For more information, refer to https://github.com/jsdom/jsdom/issues/3613 .
 
-    After running, the converted result will be displayed in console of running terminal and console of webpage showing converted query.
+This is due to issue in deprecated punycode module in `jsdom`.
+For more information, refer to https://github.com/jsdom/jsdom/issues/3613 .
+
+After running, the converted result will be displayed in console of running terminal and console of webpage showing converted query.
 
 ---
 
