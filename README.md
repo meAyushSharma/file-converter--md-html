@@ -7,7 +7,7 @@ This project aims to provide easy conversion between html and markdown.
 ---
 
 1. Installation via npm :  
-   ` npm i file-converter--md-html`  
+   ` npm i @meayush/file-converter--md-html`  
    This will install all the necessary dependencies in your system.  
    Locate the "index.js" file :  
    `your-root-folder/node_modules/file-converter--md-html/index.js`  
