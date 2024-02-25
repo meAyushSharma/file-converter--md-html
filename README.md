@@ -7,14 +7,16 @@ This project aims to provide easy conversion between html and markdown.
 ---
 
 1. Installation via npm :  
-   ` npm i @meayush/file-converter--md-html`  
+   ` npm i file-converter--md-html`  
    This will install all the necessary dependencies in your system.  
    Locate the "index.js" file :  
    `your-root-folder/node_modules/file-converter--md-html/index.js`  
    Open terminal in file-converter--md-html directory and run :  
    `node index.js`
 
-2. Setting up locally via git :  
+2. Using via ```npx``` , run command ``` npx file-converter--md-html ``` in your terminal opened in directory of your choice. This command will run ``` index.js ```, server hosted on localhost:3000.    
+
+3. Setting up locally via git :  
    i. Fork the repo, it will create copy of this repo in your github.  
    ii. Clone the repo. [you can skip the (i.) step and directly start with (ii.) as well.]  
    iii. In your local repository/directory, run `git clone your-copied-url-here` in terminal opened in that particular directory.  
